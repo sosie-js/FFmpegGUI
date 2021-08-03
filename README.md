@@ -2,6 +2,11 @@
 
 FFmpegGUI is an open-source video filter graph editor based on **Qt** and **FFmpeg**.
 
+Note : This version is for QT5+ FFMPEG4, original one was 3.2.4 and QT4, I did not take
+care af backward compatibility, if you need to run it under QT4 [use RomanSichkaruk's
+original projet](https://github.com/RomanSichkaruk/FFmpegGUI) . I let the
+compiled Binary too for Linux x64
+
 **FFmpegGUI is free software licensed under the term of LGPL v2.1.**
 
 ## Allows:
@@ -16,12 +21,12 @@ FFmpegGUI is an open-source video filter graph editor based on **Qt** and **FFmp
 
 ## Requirments:
 
-- FFmpeg 3.2.4
-- Qt4
+- FFmpeg 4+
+- Qt5
 
 ## How to install:
 
-- ./configure
+- source configure
 - make
 
 ## How it looks: 
